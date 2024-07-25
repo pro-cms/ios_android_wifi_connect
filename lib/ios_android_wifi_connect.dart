@@ -4,8 +4,9 @@ import 'package:flutter/services.dart';
 
 // TODO: Check this lint warning
 // ignore: avoid_classes_with_only_static_members
-class PluginWifiConnect {
-  static const MethodChannel _channel = MethodChannel('ios_android_wifi_connect');
+class IosAndroidWifiConnect {
+  static const MethodChannel _channel =
+      MethodChannel('ios_android_wifi_connect');
 
   /// The [isEnabled] method returns true if WiFi is enabled.
   /// The method only works on android.

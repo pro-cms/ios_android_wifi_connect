@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await PluginWifiConnect.ssid, '42');
+    expect(await IosAndroidWifiConnect.ssid, '42');
   });
 }

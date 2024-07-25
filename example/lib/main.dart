@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
     String ssid;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      ssid = await PluginWifiConnect.ssid ?? '';
+      ssid = await IosAndroidWifiConnect.ssid ?? '';
     } on PlatformException {
       ssid = 'Failed to get ssid';
     }
