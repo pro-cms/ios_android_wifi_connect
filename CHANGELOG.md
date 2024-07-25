@@ -1,4 +1,4 @@
-## 1.0.8
+## 1.0.9
 
 - updating lint rules
 - bump gradle to 7.1.2

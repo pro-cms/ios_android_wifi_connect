@@ -1,6 +1,6 @@
 name: ios_android_wifi_connect
 description: A low dependency flutter plugin to allow simple connection to wifi devices with the provided ssid or ssid prefix
-version: 1.0.8
+version: 1.0.9
 homepage: https://github.com/pro-cms/ios_android_wifi_connect
 repository: https://github.com/pro-cms/ios_android_wifi_connect
 
